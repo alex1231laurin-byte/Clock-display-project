@@ -68,4 +68,5 @@ public class NumberDisplay
     {
         value = (value + 1) % limit;
     }
+
 }
