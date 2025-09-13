@@ -1,6 +1,6 @@
 
 /**
- * The NumberDisplay class represents a digital number display that can hold
+ * The NumberDisplay2 class represents a digital number display that can hold
  * values from zero to a given limit. The limit can be specified when creating
  * the display. The values range from zero (inclusive) to limit-1. If used,
  * for example, for the seconds on a digital clock, the limit would be 60, 
@@ -10,19 +10,16 @@
  * @author Michael Kölling and David J. Barnes
  * @version 7.0
  */
-public class NumberDisplay
+public class NumberDisplay2
 {
     private int limit;
     private int value;
     private int digit;
-
-    /**
-     * Constructor for objects of class NumberDisplay.
-     * Set the limit at which the display rolls over.
-     */
-    public NumberDisplay(int rollOverLimit)
+    
+    public void NumberDisplay2()
     {
-        limit = rollOverLimit;
+        digit = 10;
+        limit = digit;
         value = 0;
     }
 

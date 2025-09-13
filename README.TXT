@@ -24,4 +24,7 @@ Everything else could be pretty much the same.
 
 Note: This project does not implement adequate handling of errors.
 
-21: It starts at 00:00 because it is its default time
+21: It starts at 00:00 because it is its default time.
+23: We would need to use the timeTick methode 60 times. The other method to make it display
+that time would be to use the setTime method.
+24: The definition of the variable digit is to store an integer.
