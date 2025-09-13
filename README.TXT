@@ -1,12 +1,25 @@
-------------------------------------------------------------------------
-Ceci est le fichier LISEZMOI (README) du projet.  Décrivez-y votre projet.
-Dites au lecteur (qui ne sait rien du projet) ce qu'il a besoin de savoir.
-Au minimum, remplissez cette description :
-------------------------------------------------------------------------
+Project: clock-display
+Authors: David Barnes and Michael Kölling
 
-TITRE DU PROJET :
-BUT POURSUIVI :
-VERSION ou DATE :
-COMMENT INVOQUER CE PROJET :
-AUTEURS :
-INSTRUCTIONS Ŕ L'USAGER :
+This project is part of the material for the book
+
+   Objects First with Java - A Practical Introduction using BlueJ
+   Seventh edition
+   David J. Barnes and Michael Kölling
+
+It is discussed in chapter 3.
+
+To use this project, create an instance of class ClockDisplay. Then inspect this 
+instance and leave the object inspector window open. With the inspector window open, 
+call the object's methods, such as timeTick and setTime. Watch the 
+"displayString" in the inspector.
+
+The displayString field simulates the actual clock display device. Were this 
+program running in a real clock, it would change the real, physical display 
+hardware instead of this string. The timeTick method would be triggered once 
+every minute by some timer hardware.
+
+Everything else could be pretty much the same.
+
+
+Note: This project does not implement adequate handling of errors.
