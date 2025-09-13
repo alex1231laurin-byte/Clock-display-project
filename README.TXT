@@ -28,3 +28,12 @@ Note: This project does not implement adequate handling of errors.
 23: We would need to use the timeTick methode 60 times. The other method to make it display
 that time would be to use the setTime method.
 24: The definition of the variable digit is to store an integer.
+26: The second constructor in ClockDisplay creates a clock display object and runs the
+SetTime method to get the values hours and minutes from the user. Essencially, it creates
+a new clock set on the hours and minutes specified by the user without the need to create
+a new clock that's set to 00:00 every time.
+27: Because it is already being used in the SetTime method at the end.
+28: public void print: System.out.println(filename);
+public int getStatus: return delay;
+29: It creates new objects and assings each of them to a variable. Then, it runs the methods
+that changes the variables to create a picture.
