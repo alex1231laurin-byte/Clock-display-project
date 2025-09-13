@@ -23,3 +23,5 @@ Everything else could be pretty much the same.
 
 
 Note: This project does not implement adequate handling of errors.
+
+21: It starts at 00:00 because it is its default time
