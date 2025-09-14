@@ -37,3 +37,32 @@ a new clock that's set to 00:00 every time.
 public int getStatus: return delay;
 29: It creates new objects and assings each of them to a variable. Then, it runs the methods
 that changes the variables to create a picture.
+30: roof.changeSize(60, 180);, roof.moveHorizontal(20);, roof.moveVertical(-60); and
+roof.makeVisible();.
+31: Yes.
+32: 2.
+33: It gives the remain of the first number.
+34: 1, 2, 3 and 4.
+35: {-n%m, 0, n%m}.
+37: Letting it store hour values from 1 to 12
+38: 
+39: 
+40: 
+41: 
+42: 
+43: 
+44: 
+45: 
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: 
+55: 
+56:  
+57: 
+58: 
