@@ -44,7 +44,8 @@ roof.makeVisible();.
 33: It gives the remain of the first number.
 34: 1, 2, 3 and 4.
 35: {-n%m, 0, n%m}.
-37: Letting it store hour values from 1 to 12
+37: Letting it store hour values from 1 to 12 is better because it is much simpler than
+reducing the display string of the clock by 12 when it is above 12 and add am or pm.
 38: 
 39: 
 40: 
