@@ -46,3 +46,4 @@ roof.makeVisible();.
 35: {-n%m, 0, n%m}.
 37: Letting it store hour values from 1 to 12 is better because it is much simpler than
 reducing the display string of the clock by 12 when it is above 12 and add am or pm.
+52: No, it does not give the same result as the previous version.
