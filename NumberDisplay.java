@@ -41,12 +41,7 @@ public class NumberDisplay
      */
     public String getDisplayValue()
     {
-        if(value < 10) {
-            return "0" + value;
-        }
-        else {
-            return "" + value;
-        }
+         return String.format(“%02d”, value);
     }
 
     /**
